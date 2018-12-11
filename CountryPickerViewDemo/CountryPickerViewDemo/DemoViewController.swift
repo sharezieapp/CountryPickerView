@@ -155,6 +155,10 @@ extension DemoViewController: CountryPickerViewDataSource {
         }
         return false
     }
+    
+    func cellImageViewSize(in countryPickerView: CountryPickerView) -> CGSize {
+        return CGSize(width: 30, height: 30)
+    }
 }
 
 
